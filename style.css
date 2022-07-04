@@ -10,13 +10,15 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .haif-width{
-    width: 50%;
+    width: 100%;
     padding-left: 2%;
 }
 .haif-width img{
     width: 80%;
+    height: 60%;
 }
 .link-button{
     text-decoration: none;
@@ -29,4 +31,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
